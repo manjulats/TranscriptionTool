@@ -16,7 +16,6 @@ export default class FriendList extends Component {
           key={friend.id}
           id={friend.id}
           name={friend.name}
-          starred={friend.starred}
           {...this.props.actions} />
       )
     );

@@ -7,12 +7,10 @@
 
 .friendListItem {
   list-style: none;
-  background: url(./images/icon-user.png) no-repeat left 10px top 10px;
   font-family: "open_sansregular", Arial;
-  padding: 20px 10px 20px 60px;
+  padding: 60px 10px 20px 10px;
   background-color: white;
-  border-bottom: 1px solid #E3E3E3;
-  display: flex;
+  display: inline-flex;
 }
 
 .friendInfos {

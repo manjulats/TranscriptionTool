@@ -1,6 +1,7 @@
 type FriendById = {
   id?: number,
-  name: string
+  name: string,
+  avatar: string
 };
 
 // This is the model of our module state
