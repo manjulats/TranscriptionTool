@@ -8,26 +8,32 @@
 .friendListItem {
   list-style: none;
   font-family: "open_sansregular", Arial;
-  padding: 60px 10px 20px 10px;
-  background-color: white;
+  padding: 60px 10px 10px 10px;
+  width: 100px;
   display: inline-flex;
+  color: rgba(202, 208, 212, 0.5);
 }
 
 .friendInfos {
   flex: 1 0 auto;
 }
 
-.friendInfos span {
-  font-weight: bold;
+.friendInfos div > span {
+  font-weight: normal;
+  font-size: 12px;
 }
 
 .friendActions {
   flex: 0 0 90px;
 }
 
+.btn {
+  white-space: normal !important;
+}
+
 .btnAction, .btnAction:active, .btnAction:focus, .btnAction:hover {
   margin-right: 5px;
-  color: #5C75B0;
+  color: rgba(202, 208, 212, 0.5);
 }
 
 button:focus {

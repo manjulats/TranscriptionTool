@@ -19,27 +19,35 @@ export const NAME = 'friends';
 // Define the initial state for `friends` module
 
 const initialState: State = {
-  friends: [0, 1, 2, 3, 4],
+  friends: [0, 1, 2, 3, 4, 5,6],
   friendsById: [
     {
       id: 0,
-      name: 'Notorious B.I.G.'
+      name: 'Ayo Mena Ogunseinde'
     },
     {
       id: 1,
-      name: 'Tupac Shakur'
+      name: 'Erik Lucatero'
     },
     {
       id: 2,
-      name: 'Dr. Dre'
+      name: 'Ahmad Ossayli'
     },
     {
       id: 3,
-      name: 'Big Pun'
+      name: 'Gabriel Silverio'
     },
     {
       id: 4,
-      name: 'Rakim'
+      name: 'Gianni Zanato'
+    },
+    {
+      id: 5,
+      name: 'Diego Duarte'
+    },
+    {
+      id: 6,
+      name: 'Clem Onojeghuo'
     }
   ]
 };
