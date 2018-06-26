@@ -9,7 +9,6 @@ export default class FriendListItem extends Component {
     id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     starFriend: PropTypes.func.isRequired,
-    starred: PropTypes.bool
   };
 
   render() {

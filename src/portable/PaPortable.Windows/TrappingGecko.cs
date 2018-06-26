@@ -7,9 +7,9 @@ using SIL.IO;
 
 namespace PaPortable.Windows
 {
-    public class TrappingGecko : GeckoWebBrowser, IPlatformSpecifics
+    public class TrappingGecko : GeckoWebBrowser//, IPlatformSpecifics
     {
-        public DisplayPages DisplayPages { get; set; }
+        //public DisplayPages DisplayPages { get; set; }
         public List<string> SupportFile { get; set; }
 
         protected override void OnDomClick(DomMouseEventArgs e)
@@ -28,13 +28,13 @@ namespace PaPortable.Windows
             {
                 case "VowelChart": break;
                 case "ConstChart": break;
-                case "DataCorpus": DisplayPages.DisplayData(); break;
-                case "Search": break;
-                case "Project": DisplayPages.DisplayOpenProject(); break;
-                case "Settings": break;
-                case "DistChart": break;
-                case "Steps": break;
-                case "Close": Program.DisplayMenu(); break;
+                //case "DataCorpus": DisplayPages.DisplayData(); break;
+                //case "Search": break;
+                //case "Project": DisplayPages.DisplayOpenProject(); break;
+                //case "Settings": break;
+                //case "DistChart": break;
+                //case "Steps": break;
+                //case "Close": Program.DisplayMenu(); break;
             }
         }
         public void DisplayPage(string page, int[] coords)
